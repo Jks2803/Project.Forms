@@ -10,6 +10,7 @@ body {
 }
 
 .container {
+  width: 100%;
   margin: 16px;
   display: flex;
   justify-content: center;
@@ -18,15 +19,15 @@ body {
 
 .form.imagem {
   width: 70%;
-  height: 100vh;
+  height: 84vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .forms {
-  width: 70%;
-  height: 100%;
+  width: 40%;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -34,6 +35,7 @@ body {
   padding: 64px 88px 64px 88px;
   border-radius: 16px;
   background-color: white;
+
 }
 
 .header {
@@ -58,7 +60,7 @@ body {
   font-size: 48px;
 }
 
-.text p {
+.text h5 {
   color: #606060;
   font-weight: normal;
   font-size: 16px;
