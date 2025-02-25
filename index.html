@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+<!--Essa engloba todas as demais divs, dessa forma nela vou aplicar a padding -->
+    <main class="container">
+<!--Essa minha div onde vai ficar a imagem-->
+      <div class="form.imag">
+        <img src="./assets/image.png" alt="imagem de tres bonecos" />
+      </div>
+
+<!--Essa div quero que fica todas as informações do fourmulário-->
+      <div class="forms">
+<!--Nessa div que está presente dentro da forms, vai conter header-->
+        <div class="header">
+        <div class="icon.svg">
+          <img src="./assets/Icon.svg" alt="Icon projeto" />
+        </div>
+
+<!--Nessa div que está presente dentro da forms, vai conter o title-->
+        <div class="text">
+          <h1>Welcome back!</h1>
+          <p>Please enter your details</p>
+        </div>
+        </div>
+        <!--Finaliza div header-->
+<form action="#">
+<div class="input-single">
+<input required type="email" name="email" id="email" class="input">
+<label for="email">Email</label>
+</div>
+
+<div class="input-single">
+<input required type="password" name="" id="password" class="input">
+<label for="password">Password</label>
+<img src="./assets/Desktop/Vector.svg" alt="">
+</div>
+</form>
+
+<div class="password-container">
+<div class checkbox>
+    <input type="checkbox" id="remember" class="checkbox">
+    <label for="remember">Remember for 30 days</label>
+</div class forgot-pass >
+    <a href="#">Forgot Password</a>
+</div>
+
+<div class="button-container">
+    <button class="button-primary">Login in</button>
+    <a href="https://www.google.com" class="button-secondary" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/Desktop/Google.svg" alt="Icon Google">
+        Login In with Google
+    </a>
+</div>
+
+<div class="footer">
+  <p>Don't have an account?</p>
+  <a href="#">Sign Up</a>
+</div>
+        </div>
+<!--finaliza div das informações do formulário-->
+
+      </main>
+      <!--Precisa englobar todas, pois ela é class container-->
+    </div>
+  </body>
+</html>
